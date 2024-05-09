@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Room : MonoBehaviour
+public class Room : MonoBehaviourPunCallbacks
 {
-    public Text roomName;
+    public TextMeshProUGUI roomName;
     public void JoinRoom(){
         GameObject.Find("CreateAndJoin").GetComponent<CreateAndJoin>().JoinRoom(roomName.text);
     }
