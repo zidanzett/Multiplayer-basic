@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 8506150732662762453}
   - component: {fileID: 7072336653711361324}
   - component: {fileID: 1263905108212780888}
-  - component: {fileID: 3979470469167883251}
+  - component: {fileID: 851136273280488205}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -256,9 +256,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3979470469167883251}
-        m_TargetAssemblyTypeName: Room, Assembly-CSharp
-        m_MethodName: JoinRoom
+      - m_Target: {fileID: 851136273280488205}
+        m_TargetAssemblyTypeName: RoomItem, Assembly-CSharp
+        m_MethodName: OnClickItem
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -268,7 +268,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3979470469167883251
+--- !u!114 &851136273280488205
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8410223356694018977}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bab8968601cefe4e9796adab7108075, type: 3}
+  m_Script: {fileID: 11500000, guid: 62221f5e4af23934c810d9f1f93e15a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   roomName: {fileID: 9046553041607807787}
